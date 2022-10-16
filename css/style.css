@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 /* This class is added on scroll */
 .fixed {
   position: fixed;
