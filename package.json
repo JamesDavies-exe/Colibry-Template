@@ -1,0 +1,11 @@
+{
+    "name": "Colibry Sevilla",
+    "version": "1.0.0",
+    "devDependencies": {
+        "parcel": "^2.7.0",
+        "prettier": "^2.7.1"
+    },
+    "scripts": {
+        "start": "npx parcel src/index.html"
+    }
+}
