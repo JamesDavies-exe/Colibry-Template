@@ -1,65 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colibry Sevilla</title>
-  </head>
-  <body>
-    <section id="screen1">
-      <div class="sign">
-        <span class="fast-flicker">co</span>li<span class="flicker">b</span>ry
-      </div>
-      <nav id="navbar">
-        <ul>
-          <li><a href="#" class="link">Inicio</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Carta</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
-    </section>
 
-    <section id="screen2">
-      <div class="container">
-        <div class="banner" style="background-image: url(/img/foto1.jpg);"></div>
-        <div class="info">
-          <h1>Cafetería Colibry</h1>
-          <p>Situada en la Avenida Europa Nº21 de Los Bermejales (Sevilla).
-            Cafetería original y fuera de serie. Bonita decoración con figuras de 
-            colibríes y plantas. Con Amplia variedad de tartas, dulces como también bebidas frías y calientes. Personal amable. Para compartir y pasar un buen rato en buena compañía
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="screen3">
-      <div class="container">
-        <div class="banner">
-          <h1>Nuestra Carta</h1>
-          <p>Disponemos de una gran variedad en tés, dulces, tartas... Para quienes disfrutan del buen café, tenemos una taza en tamaño XL y en nuestros batidos, 
-            los cuales son naturales y hechos por nosotros. Echa un ojo a nuestra carta pulsando en el siguiente botón</p>
-          <div>
-            <button class="slide">Carta</button>
-          </div>
-        </div>
-        <div class="info" style="background-image: url(/img/foto2.jpg);"></div>
-      </div>
-    </section>
-    <section id="screen2">
-      <div class="container">
-        <div class="banner" style="background-image: url(/img/foto3.jpg);"></div>
-        <div class="info">
-          <h1>¿Donde estamos?</h1>
-          <p>Nos encontrarás en Los Bermejales, Sevilla. En la iconica Avenida Europa</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.837369094559!2d-5.98130064885894!3d37.346358744365055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e76dd94400b%3A0x72bf8833cecdd25a!2sCafeter%C3%ADa%20Colibry!5e0!3m2!1ses!2ses!4v1665858123839!5m2!1ses!2ses" 
-          width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        </div>
-      </div>
-    </section>
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-    <script src="/js/main.js"></script>
-  </body>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">Colibry</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">Menú</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#review">Reseñas</a>
+        <a href="#horario">Horario</a>
+        <a href="#order">Reserva</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+      <div class="image">
+        <img src="img/title.png" alt="">
+    </div>
+        <p>AV Europa Nº21 - Los Bermejales - Sevilla</p>
+        <a href="#" class="btn">Nuestra carta</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> Nuestras <span>especialidades</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/img/coffee.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="/img/latte.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="img/cappuccino.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="img/alice-pasqual-bDL5INidTEQ-unsplash.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="img/zumos.jpg" alt="">
+        </div>
+        <div class="box">
+            <img src="img/licores.jpg" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Opinion de nuestros <span>clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/joquin.jpeg" alt="">
+            <h3>Joaquin Sanchez</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Casi merecería la pena ir sólo por su decoración, con un estilo único y diferente. Y que viva er Beti'</p>
+        </div>
+        <div class="box">
+            <img src="img/images.jpeg" alt="">
+            <h3>Aitana</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Es que me encantas tanto si me miras mientras canto, se me pone cara tonta, baby tu me tienes loca</p>
+        </div>
+        <div class="box">
+            <img src="img/bertin-osborne-aclara_98.webp" alt="">
+            <h3>Bertín Osborne</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Cafetería original y fuera de serie. Bonita decoración con figuras de colibríes y plantas.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="review" id="horario">
+
+    <h1 class="heading">  <span>Horario</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" style="color:#fff; font-size:1.5em;  letter-spacing: 3px;">
+            <p>
+                    <ul>Lunes - 9:00 / 13:00, 16:00 / 21:00</ul>
+                    <ul>Martes - 9:00 / 13:00, 16:00 / 21:00</ul>
+                    <ul>Miercoles - 9:00 / 13:00, 16:00 / 21:00</ul>
+                    <ul>Jueves - 9:00 / 13:00, 16:00 / 21:00</ul>
+                    <ul>Viernes - 9:00 / 13:00, 16:00 / 21:00</ul>
+                    <ul>Sabado - 9:30 / 21:00</ul>
+                    <ul>Domingo - 9:30 / 21:00</ul>
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading"> <span>Reserva</span> ahora </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.8373690945596!2d-5.981300648858947!3d37.34635874436505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126e76dd94400b%3A0x72bf8833cecdd25a!2sCafeter%C3%ADa%20Colibry!5e0!3m2!1ses!2ses!4v1666883645525!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="Telefono">
+                <input type="time" placeholder="Hora">
+            </div>
+
+            <textarea placeholder="Observaciones" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+    </div>
+
+    <h1 class="credit"> <span> Colibry </span> Sevilla | 2022 </h1>
+
+</section>
+
+<script src="/js/script.js"></script>
+
+</body>
 </html>
